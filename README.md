@@ -16,3 +16,23 @@ Ref: https://stackoverflow.com/a/4421674/1849597
 - At __Delete domain security policies__, Domain: enter `localhost`, then press __Delete__ button
 
 Ref: [chasewoodford.com](https://www.chasewoodford.com/blog/fixing-localhost-ssl-connection-error-in-google-chrome/)
+
+## Copy to clipboard in terminal
+
+macOS
+
+```
+echo "text" | pbcopy           # pbpaste
+```
+
+[Command Prompt](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/clip)
+
+```
+echo "text" | clip
+```
+
+[Windows PowerShell](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-clipboard)
+
+```
+echo "text" | Set-Clipboard    # Get-Clipboard
+```
